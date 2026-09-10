@@ -1,0 +1,7 @@
+name = "rootvexx-lawnstride-collector"
+main = "analytics-worker.js"
+compatibility_date = "2026-01-01"
+
+kv_namespaces = [
+  { binding = "EVENTS", id = "REPLACE_WITH_ID_FROM_wrangler_kv_namespace_create" }
+]

@@ -24,14 +24,14 @@
  * Then paste the Worker URL into Settings → Analytics endpoint in the admin.
  */
 
-const ALLOWED = ['https://branchforge.shop', 'https://haulcrest.shop'];
+const ALLOWED = ['https://rootvexx.shop', 'https://lawnstride.shop'];
 const DAY = 86400e3;
 const LIVE_WINDOW = 5 * 60e3;
 const KEEP = 7 * DAY;
 
 const PRICES = {
-  'BF-CY150': 'price_xxx', 'BF-GM380': 'price_xxx', 'BF-TT1000': 'price_xxx', 'BF-VG850': 'price_xxx',
-  'HC-CY150': 'price_xxx', 'HC-GM380': 'price_xxx', 'HC-TT1000': 'price_xxx', 'HC-VG850': 'price_xxx',
+  'RV-CREX6M': 'price_xxx', 'RV-DP5000': 'price_xxx', 'RV-TW1375G': 'price_xxx', 'RV-360SW': 'price_xxx',
+  'LS-CREX6M': 'price_xxx', 'LS-DP5000': 'price_xxx', 'LS-TW1375G': 'price_xxx', 'LS-360SW': 'price_xxx',
 };
 
 export default {

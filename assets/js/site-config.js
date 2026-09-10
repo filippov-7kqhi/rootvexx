@@ -32,9 +32,9 @@ window.SITE_CONFIG = {
   // One Stripe Payment Link per machine. Blank = that machine routes to an
   // enquiry instead of pretending to take payment.
   paymentLinks: {
-    "RV-CREX6M": "",     // CREX6-M Mini Excavator - GBP 4,999
-    "RV-DP5000": "",     // DP5000 500 kg Tracked Mini Dumper - GBP 2,499
-    "RV-TW1375G": "",    // TW 13/75G Petrol Wood Chipper - GBP 2,199
-    "RV-360SW": "",      // 360 SW Stump Grinder - GBP 2,599
+    "RV-CREX6M": "https://buy.stripe.com/cNiaEXacK6Iu9MUbvu6c00c",
+    "RV-DP5000": "https://buy.stripe.com/cNi14net0d6S5wE5766c00d",
+    "RV-TW1375G": "https://buy.stripe.com/5kQaEX3OmeaW2ks2YY6c00e",
+    "RV-360SW": "https://buy.stripe.com/eVqcN55Wud6S4sA7fe6c00f"
   }
 };
