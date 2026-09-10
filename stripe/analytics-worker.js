@@ -30,8 +30,10 @@ const LIVE_WINDOW = 5 * 60e3;
 const KEEP = 7 * DAY;
 
 const PRICES = {
-  'RV-CREX6M': 'price_xxx', 'RV-DP5000': 'price_xxx', 'RV-TW1375G': 'price_xxx', 'RV-360SW': 'price_xxx',
-  'LS-CREX6M': 'price_xxx', 'LS-DP5000': 'price_xxx', 'LS-TW1375G': 'price_xxx', 'LS-360SW': 'price_xxx',
+  'RV-CREX6M': 'price_1UEDqOGd7L8SA737PI8GsP6', 'RV-DP5000': 'price_1UEDqRGd7L8SA737suuMuMKP',
+  'RV-TW1375G': 'price_1UEDqUGd7L8SA7376170E6Ow', 'RV-360SW': 'price_1UEDqXGd7L8SA737YImT8F2a',
+  'LS-CREX6M': 'price_1UEDqAGd7L8SA737DoQq2AMd', 'LS-DP5000': 'price_1UEDqDGd7L8SA7371jBNwWgz',
+  'LS-TW1375G': 'price_1UEDqHGd7L8SA737TmDrcqnJ', 'LS-360SW': 'price_1UEDqKGd7L8SA737omdtI947',
 };
 
 export default {

@@ -3,5 +3,5 @@ main = "analytics-worker.js"
 compatibility_date = "2026-01-01"
 
 kv_namespaces = [
-  { binding = "EVENTS", id = "REPLACE_WITH_ID_FROM_wrangler_kv_namespace_create" }
+  { binding = "EVENTS", id = "527c5d72f5cd4538ac394a792cdf82c2" }
 ]
