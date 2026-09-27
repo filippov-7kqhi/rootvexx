@@ -16,8 +16,8 @@ window.SITE_CONFIG = {
     company:   "RootVexx",
     companyNo: "",
     vatNo:     "",
-    street:    "23 Conway Rd",
-    city:      "Conway",
+    street:    "23st Conway Rd",
+    city:      "Conway, Conwy County Borough",
     postcode:  "LL32 7TE",
     phone:     "+44 7858 117670"
   },
