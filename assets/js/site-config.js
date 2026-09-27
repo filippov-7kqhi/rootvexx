@@ -16,8 +16,8 @@ window.SITE_CONFIG = {
     company:   "RootVexx",
     companyNo: "",
     vatNo:     "",
-    street:    "Conway Rd",
-    city:      "Conwy",
+    street:    "23 Conway Rd",
+    city:      "Conway",
     postcode:  "LL32 7TE",
     phone:     "+44 7858 117670"
   },
