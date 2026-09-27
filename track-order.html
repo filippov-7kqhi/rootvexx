@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css?v=5df1e4380a">
+<link rel="stylesheet" href="assets/css/style.css?v=896eeb8fbf">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -50,22 +50,22 @@
 <section class="pagehead"><div class="wrap" style="max-width:760px">
   <nav class="crumbs"><a href="index.html">Home</a> / <span>Track order</span></nav>
   <h1>Where is my machine?</h1>
-  <p class="muted">Enter the reference from your confirmation email. Crated machines move on a
+  <p class="muted">Send us the reference from your confirmation email and your delivery postcode, and we will reply with where your machine is &mdash; usually the same working day. Crated machines move on a
      tail-lift vehicle, so the carrier calls to book a slot before delivery.</p>
-  <form class="form" data-demo="No live order was found for that reference. Email support@rootvexx.shop with your order number and we will trace it the same working day." style="margin-top:1.6rem" novalidate>
+  <form class="form" data-mailto="support@rootvexx.shop" data-subject="Order status {ref}" style="margin-top:1.6rem" novalidate>
     <div class="field"><label for="ref">Order reference</label>
-      <input id="ref" name="ref" placeholder="RV-000000" required></div>
+      <input id="ref" name="ref" placeholder="From your confirmation email" required></div>
     <div class="field"><label for="pc">Delivery postcode</label>
       <input id="pc" name="postcode" placeholder="SW1A 1AA" required></div>
-    <button class="btn btn--primary btn--lg" type="submit">Track order</button>
+    <button class="btn btn--primary btn--lg" type="submit">Email us for an update</button>
   </form>
   <div class="result" role="status"></div>
 </div></section>
 <section class="band"><div class="wrap">
   <div class="sec-head center"><h2>What each stage means</h2></div>
   <div class="steps">
-    <div class="step"><h3>Order placed</h3><p>Payment cleared and your machine allocated from UK stock.</p></div>
-    <div class="step"><h3>Pre-delivery check</h3><p>Fluids, fasteners and a running test before the crate is sealed.</p></div>
+    <div class="step"><h3>Order placed</h3><p>Payment cleared and your order confirmed with our supplier.</p></div>
+    <div class="step"><h3>Dispatched</h3><p>Crated at our supplier&#x27;s warehouse and handed to the carrier. We email you the carrier reference.</p></div>
     <div class="step"><h3>With the carrier</h3><p>Booked onto a tail-lift vehicle. You get a call to agree a slot.</p></div>
     <div class="step"><h3>Delivered</h3><p>Signed for kerbside. Inspect before signing and note any damage.</p></div>
   </div>
@@ -77,7 +77,7 @@
     <div class="footer__grid">
       <div>
         <a class="logo" href="index.html"><svg class="logo__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M4 9h24" stroke="#c2410c" stroke-width="2.8" stroke-linecap="round"/><path d="M16 9v18" stroke="#c2410c" stroke-width="2.8" stroke-linecap="round"/><path d="M16 15c-4 0-6 3-6 7M16 15c4 0 6 3 6 7" stroke="#ea580c" stroke-width="2.3" stroke-linecap="round"/><path d="M16 3v6" stroke="#7c2d12" stroke-width="2.8" stroke-linecap="round"/></svg><span>Root<b>Vexx</b></span></a>
-        <p class="muted" style="margin-top:1rem;max-width:38ch;font-size:.93rem">UK supplier of mini excavators, tracked mini dumpers, petrol wood chippers and stump grinders. Machines held in stock, spares held in stock, figures quoted only where we can stand behind them.</p>
+        <p class="muted" style="margin-top:1rem;max-width:38ch;font-size:.93rem">Compact plant for UK ground crews. Four machines that finish the job, delivered free to the UK mainland.</p>
         <p class="muted" style="font-size:.88rem;line-height:1.8">
           <strong style="color:var(--ink)" data-biz="company">RootVexx</strong>
           <span data-biz-addr data-hide-if-unset>Conway Rd, Conwy LL32 7TE, United Kingdom</span>
@@ -106,8 +106,8 @@
     </div>
   </div>
 </footer>
-<script src="assets/js/site-config.js?v=a905109381"></script>
-<script src="assets/js/catalogue.js?v=285fea9e3a"></script>
-<script src="assets/js/script.js?v=730a908715"></script>
+<script src="assets/js/site-config.js?v=95daa858d6"></script>
+<script src="assets/js/catalogue.js?v=18bfcbffb8"></script>
+<script src="assets/js/script.js?v=16be53cd1c"></script>
 </body>
 </html>
